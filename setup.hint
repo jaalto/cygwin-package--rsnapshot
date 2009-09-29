@@ -1,0 +1,6 @@
+sdesc: "Rsync based local and remote filesystem snapshot utility"
+ldesc: "Progam takes incremental snapshots of local and remote filesystems for
+any number of machines. rsnapshot makes extensive use of hard links.
+This is efficient only on NTFS in Cygwin."
+category: Archive Perl
+requires: cygwin perl rsync ssh util-linux

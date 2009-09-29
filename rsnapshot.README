@@ -1,0 +1,80 @@
+rsnapshot
+------------------------------------------
+
+Rsync based local and remote filesystem snapshot utility
+
+Progam takes incremental snapshots of local and remote filesystems for
+any number of machines. rsnapshot makes extensive use of hard links.
+This is efficient only on NTFS in Cygwin.
+
+Look more utilities under usr/share/doc/rsnapshot-*/utils/
+
+Usage note:
+  $EDITOR /etc/rsnapshot.conf
+  rsnapshot -v  -c /etc/rsnapshot.conf hourly
+
+Runtime requirements:
+  cygwin
+  perl
+  rsync
+  ssh
+  util-linux	(uses: /usr/bin/logger)
+
+Build requirements:
+  cygwin
+  perl
+
+Canonical homepage:
+  http://www.rsnapshot.org
+  http://sourceforge.net/projects/rsnapshot
+  http://packages.debian.org/unstable/rsnapshot
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Nathan Rosenquist <scubaninja@users.sourceforge.net>
+  Bugs: Sourceforge
+
+License:
+  GPL
+
+Language:
+  Perl
+
+------------------------------------
+
+Build instructions:
+  unpack rsnapshot-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./rsnapshot*.sh all
+
+This will create:
+  See content of *.tar.gz
+
+-------------------------------------------
+
+Files included in the binary distro:
+  See content of *.tar.gz
+
+------------------
+
+Port Notes:
+- No CPAN dependencies. The rsnapshot contains reference to CPAN
+  Lchown::lchown, but the code checks if the feature exists.
+
+----- version 1.3.0-1 -----
+- Initial release 2008-02-26 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

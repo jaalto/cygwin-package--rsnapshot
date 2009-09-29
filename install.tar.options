@@ -1,0 +1,8 @@
+# This file contains extra options when files are
+# installed. The options are given one option per line.
+#
+--include=../utils
+# Nothing in it
+--exclude=NEWS
+# Generated file
+--exclude=rsnapshot.1

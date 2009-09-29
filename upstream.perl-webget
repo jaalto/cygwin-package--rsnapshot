@@ -1,0 +1,2 @@
+tag1: rsnapshot
+  http://packages.debian.org/unstable/rsnapshot pregexp:orig.tar.gz file:rsnapshot_1.3.0.orig.tar.gz new: x:

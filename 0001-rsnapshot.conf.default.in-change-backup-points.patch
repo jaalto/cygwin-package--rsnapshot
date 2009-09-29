@@ -1,0 +1,29 @@
+From d7fae6e7cbb2429f4661b8c72b636f20cfb22d7c Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Thu, 28 Feb 2008 16:38:39 +0200
+Subject: [PATCH] rsnapshot.conf.default.in: change backup-points
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ rsnapshot.conf.default.in |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/rsnapshot.conf.default.in b/rsnapshot.conf.default.in
+index d920236..91431c4 100644
+--- a/rsnapshot.conf.default.in
++++ b/rsnapshot.conf.default.in
+@@ -186,9 +186,9 @@ lockfile	/var/run/rsnapshot.pid
+ ###############################
+ 
+ # LOCALHOST
+-backup	/home/		localhost/
++#backup	/home/		localhost/
+ backup	/etc/		localhost/
+-backup	/usr/local/	localhost/
++#backup	/usr/local/	localhost/
+ #backup	/var/log/rsnapshot		localhost/
+ #backup	/etc/passwd	localhost/
+ #backup	/home/foo/My Documents/		localhost/
+-- 
+1.5.3.8
+

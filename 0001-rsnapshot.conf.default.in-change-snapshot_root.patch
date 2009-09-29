@@ -1,0 +1,26 @@
+From 576d7a5d73f0c525ff5e10b6768aef165f49aaba Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Thu, 28 Feb 2008 16:37:10 +0200
+Subject: [PATCH] rsnapshot.conf.default.in: change snapshot_root
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ rsnapshot.conf.default.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/rsnapshot.conf.default.in b/rsnapshot.conf.default.in
+index 68010b4..d920236 100644
+--- a/rsnapshot.conf.default.in
++++ b/rsnapshot.conf.default.in
+@@ -24,7 +24,7 @@ config_version	1.2
+ 
+ # All snapshots will be stored under this root directory.
+ #
+-snapshot_root	/.snapshots/
++snapshot_root	/var/cache/snapshots
+ 
+ # If no_create_root is enabled, rsnapshot will not automatically create the
+ # snapshot_root directory. This is particularly useful if you are backing
+-- 
+1.5.3.8
+
