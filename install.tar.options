@@ -2,7 +2,10 @@
 # installed. The options are given one option per line.
 #
 --include=../utils
+
 # Nothing in it
 --exclude=NEWS
-# Generated file
+
+# Generated files
 --exclude=rsnapshot.1
+
