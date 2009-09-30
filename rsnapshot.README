@@ -20,6 +20,9 @@ Runtime requirements:
   ssh
   util-linux	(uses: /usr/bin/logger)
 
+External requirements:
+  Perl CPAN Lchown::lchown
+
 Build requirements:
   cygwin
   perl
