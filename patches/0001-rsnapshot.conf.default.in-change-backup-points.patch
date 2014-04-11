@@ -6,13 +6,11 @@ Subject: [PATCH] rsnapshot.conf.default.in: change backup-points
 Signed-off-by: Jari Aalto <jari.aalto@cante.net>
 ---
  rsnapshot.conf.default.in |    4 ++--
- 1 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/rsnapshot.conf.default.in b/rsnapshot.conf.default.in
-index d920236..91431c4 100644
 --- a/rsnapshot.conf.default.in
 +++ b/rsnapshot.conf.default.in
-@@ -186,9 +186,9 @@ lockfile	/var/run/rsnapshot.pid
+@@ -193,9 +193,9 @@ lockfile	/var/run/rsnapshot.pid
  ###############################
  
  # LOCALHOST
@@ -24,6 +22,3 @@ index d920236..91431c4 100644
  #backup	/var/log/rsnapshot		localhost/
  #backup	/etc/passwd	localhost/
  #backup	/home/foo/My Documents/		localhost/
--- 
-1.5.3.8
-

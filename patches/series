@@ -1,0 +1,3 @@
+0001-rsnapshot-program.pl-Remove-rsnapshot.conf.default.patch
+0001-rsnapshot.conf.default.in-change-backup-points.patch
+0001-rsnapshot.conf.default.in-change-snapshot_root.patch
