@@ -33,7 +33,7 @@ Main()
     fi
 
     root=$(echo $root | sed 's,/$,,')  # Delete trailing slash
-    etcdir=$root/etc
+    etcdir=$root/etc/defaults/etc
 
     echo ">> Renaming /etc file"
     Cmd mv $etcdir/rsnapshot.conf.default $etcdir/rsnapshot.conf
