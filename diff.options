@@ -1,6 +1,9 @@
 # This file contains extra options passed to diff(1) when [makepatch] command
 # is run. The options are given one option per line.
 #
-# Exclude Makefule generated file2
+# Exclude Makefule generated files
 -x rsnapshot.1
 -x rsnapshot-diff.1
+
+# Exclude shebang update
+-x rsnapshot-program.pl
