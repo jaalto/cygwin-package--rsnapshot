@@ -14,12 +14,12 @@ Signed-off-by: Jari Aalto <jari.aalto@cante.net>
  $| = 1;
  
  # version of rsnapshot
--my $VERSION = '1.3.1';
-+my $VERSION = '2014.0411.1111';
+-my $VERSION = '@VERSION@';
++my $VERSION = '1.4.2';
  
  # command or interval to execute (first cmd line arg)
  my $cmd;
-@@ -6120,12 +6120,7 @@ B<-D> a firehose of diagnostic informati
+@@ -6681,12 +6681,7 @@ B<-D> a firehose of diagnostic informati
  =head1 CONFIGURATION
  
  B</etc/rsnapshot.conf> is the default configuration file. All parameters

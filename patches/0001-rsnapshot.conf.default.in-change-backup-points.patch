@@ -10,7 +10,7 @@ Signed-off-by: Jari Aalto <jari.aalto@cante.net>
 
 --- a/rsnapshot.conf.default.in
 +++ b/rsnapshot.conf.default.in
-@@ -193,9 +193,9 @@ lockfile	/var/run/rsnapshot.pid
+@@ -223,9 +223,9 @@ lockfile	/var/run/rsnapshot.pid
  ###############################
  
  # LOCALHOST
