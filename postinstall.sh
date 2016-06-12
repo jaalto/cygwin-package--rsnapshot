@@ -13,7 +13,7 @@ dest=$1
 
 #:etc
 fromdir=/etc/defaults
-for i in  etc/ etc/rsnapshot.conf
+for i in  etc/ etc/rsnapshot.conf.default
 do
     from="$fromdir/$i"
     to="$dest/$i"
@@ -31,3 +31,11 @@ do
     esac
 done
 
+#:info
+(
+    cd /usr/share/info &&
+    for i in  rsnapshot-HOWTO.en.info
+    do
+        install-info --dir-file=./dir --info-file=$i
+    done
+)
