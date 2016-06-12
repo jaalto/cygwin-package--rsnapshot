@@ -14,17 +14,13 @@ Usage note:
   rsnapshot -v -c /etc/rsnapshot.conf hourly
 
 Runtime requirements:
-  cygwin
   perl
   rsync
   ssh
   util-linux	(uses: /usr/bin/logger)
-
-External requirements:
-  Perl CPAN Lchown::lchown
+  perl-Lchown
 
 Build requirements:
-  cygwin
   perl
 
 Canonical homepage:
@@ -76,6 +72,9 @@ Port Notes:
 - No CPAN dependencies. The rsnapshot contains reference to CPAN
   Lchown::lchown, but the code checks if the feature exists.
 
+----- version 1.4.2-1 -----
+- New upstream release 2016-06-12 Jari Aalto
+
 ----- version 1.3.1-2 -----
 - Packaging upate 2014-04-11 Jari Aalto
 
@@ -86,4 +85,4 @@ Port Notes:
 - Initial release 2008-02-26 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008-2014 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2008-2016 Jari Aalto; Licensed under GPL v2 or later
